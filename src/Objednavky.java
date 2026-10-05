@@ -37,6 +37,25 @@ public class Objednavky {
         return cena * pocetKusu;
     }
 
+    public void setJmeno(String jmeno) {
+        this.jmeno = jmeno;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public void setProdukt(String produkt) {
+        this.produkt = produkt;
+    }
+
+    public void setCena(double cena) {
+        this.cena = cena;
+    }
+
+    public void setPocetKusu(int pocetKusu) {
+        this.pocetKusu = pocetKusu;
+    }
 
     @Override
     public String toString() {
