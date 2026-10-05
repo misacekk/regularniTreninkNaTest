@@ -37,6 +37,7 @@ public class Objednavky {
         return cena * pocetKusu;
     }
 
+
     @Override
     public String toString() {
         return String.format("%s | %s | %s | %.2f Kč | %d ks",
